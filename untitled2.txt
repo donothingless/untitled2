@@ -1,0 +1,39 @@
+
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+        int C = 0;
+        if (RadioButtonList1.SelectedIndex == 1)
+            C = C + 1;
+        if (RadioButtonList2.SelectedIndex == 1)
+            C = C + 1;
+        TextBox1.Text = Convert.ToString(C);
+        RadioButtonList1.Enabled = false;
+        RadioButtonList2.Enabled = false;
+
+    }
+    protected void Button2_Click(object sender, EventArgs e)
+    {
+        TextBox1.Text = "";
+        RadioButtonList1.SelectedIndex = -1;
+        RadioButtonList2.SelectedIndex = -1;
+        RadioButtonList1.Enabled = true;
+        RadioButtonList2.Enabled = true;
+    }}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
